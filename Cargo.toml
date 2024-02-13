@@ -1,0 +1,10 @@
+[package]
+name = "easy-poc"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+srp = {git = "https://github.com/perlindgren/srp-analysis"}
+symex = {git = "https://github.com/s7rul/symex", tag = "Thesis_version"}

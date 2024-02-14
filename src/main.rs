@@ -276,6 +276,8 @@ fn main() {
         max_utilization = max_utilization.max(tasks.total_utilization());
         list_of_task_results.push(result);
     }
+
+    println!("-------------------------------------------------------------------------------------------");
     
     println!("Max utilization: {}", max_utilization);
     let worst_result = find_worst(list_of_task_results);
